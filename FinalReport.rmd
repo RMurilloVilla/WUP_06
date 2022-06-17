@@ -63,7 +63,8 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-
+By being shown onto this chart the white race show majority of the death penalty while the black race
+strongly refuses the death penalty.
 
 ### Numerical Descriptive Results
 
