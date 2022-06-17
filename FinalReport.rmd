@@ -63,8 +63,7 @@ basicCC <- ggplot(dd2,aes(x=race,y=prcnt*100,fill=cappun))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-By being shown onto this chart the white race show majority of the death penalty while the black race
-strongly refuses the death penalty.
+According to the bar plot , the race of a person is affected to the way they view capital punishment. The graph presents that white people prefer the capital punishment and black people strongly disagree with.
 
 ### Numerical Descriptive Results
 
@@ -81,6 +80,7 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+On the 
 
 ## Inferential Results
 
@@ -98,11 +98,15 @@ fisher.test(table2)
 #fisherXY(mydata$race,mydata$cappun)
 ```
 
+
+
 ```{r}
 fisherXY(mydata$cappun,mydata$race)
 ```
  
 
+
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
