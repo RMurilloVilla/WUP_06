@@ -80,7 +80,8 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-On the 
+On the numerical data, the white people strongly agree with the death sentence,
+of the death sentence and black people are lightly against the death sentence. This is showing that the attitude towards the death sentence vary through race.
 
 ## Inferential Results
 
